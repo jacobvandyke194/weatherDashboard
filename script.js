@@ -1,6 +1,6 @@
 var searchBtn = document.querySelector('.searchBtn')
-const url = `api.openweathermap.org/data/2.5/forecast?lat=44.34&lon=10.99&appid={0f767ba75fcf16c87cbd0741a061e947
-}`
+const url = `https://api.openweathermap.org/data/2.5/weather?lat={39.742043}&lon={-104.991531}&appid=202f47e2a9f5284ca038475e5bd1cccd}`
+
 searchBtn.addEventListener('click', citySearch)
 
 function citySearch() {
