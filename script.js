@@ -22,7 +22,7 @@ function citySearch() {
             latitude = data.coord.lat;
             longitude = data.coord.lon;
         
-            cityTag.innerHTML = `CITY: ${data.name}`;
+            cityTag.innerHTML = `CITY: ${data.name} (TODAY)`;
             tempTag.innerHTML = `TEMP: ${data.main.temp} DEGREES`;
             windTag.innerHTML = `WIND: ${data.wind.speed} MPH`;
             humidityTag.innerHTML = `HUMIDITY: ${data.main.humidity}%`;
@@ -97,7 +97,7 @@ function premadeSearch() {
             latitude = data.coord.lat;
             longitude = data.coord.lon;
 
-            cityTag.innerHTML = `CITY: ${data.name}`;
+            cityTag.innerHTML = `CITY: ${data.name} (TODAY)`;
                     tempTag.innerHTML = `TEMP: ${data.main.temp} DEGREES`;
                     windTag.innerHTML = `WIND: ${data.wind.speed} MPH`;
                     humidityTag.innerHTML = `HUMIDITY: ${data.main.humidity}%`;
